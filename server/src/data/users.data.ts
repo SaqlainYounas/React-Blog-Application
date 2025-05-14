@@ -1,0 +1,323 @@
+export const users = [
+  {
+    id: 'u1',
+    firstName: 'Liam',
+    lastName: 'Bennett',
+    email: 'liam.bennett@example.com',
+    age: 29,
+    occupation: 'Software Engineer',
+    image: '/images/userAvatars/user1.jpg',
+    posts: [
+      {
+        id: 'u1_b1',
+        title: 'Understanding Async/Await in JavaScript',
+        subtitle: 'Simplifying asynchronous code',
+        content:
+          "Async/await makes writing asynchronous code easier. Let's explore how it compares to promises and callbacks.",
+        publishDate: '2024-11-01',
+        author: 'Liam Bennett',
+        image: '/images/blogImages/u1_b1.jpeg',
+      },
+      {
+        id: 'u1_b2',
+        title: 'Clean Code Practices for Developers',
+        subtitle: 'Write better code today',
+        content:
+          'This post covers essential clean coding principles every developer should follow for better readability and maintainability.',
+        publishDate: '2025-01-10',
+        author: 'Liam Bennett',
+        image: '/images/blogImages/u1_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u2',
+    firstName: 'Olivia',
+    lastName: 'Watson',
+    email: 'olivia.watson@example.com',
+    age: 34,
+    occupation: 'Marketing Manager',
+
+    image: '/images/userAvatars/user2.jpg',
+    posts: [
+      {
+        id: 'u2_b1',
+        title: 'Top 5 Marketing Trends in 2025',
+        subtitle: 'Stay ahead of the curve',
+        content:
+          'From AI-driven campaigns to hyper-personalization, here are the top marketing trends to watch in 2025.',
+        publishDate: '2025-02-15',
+        author: 'Olivia Watson',
+        image: '/images/blogImages/u2_b1.jpeg',
+      },
+      {
+        id: 'u2_b2',
+        title: 'Building a Brand with Authenticity',
+        subtitle: 'Winning customer trust',
+        content:
+          'Authenticity is key in brand communication. Learn how to build trust and loyalty with your audience.',
+        publishDate: '2025-03-01',
+        author: 'Olivia Watson',
+        image: '/images/blogImages/u2_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u3',
+    firstName: 'Noah',
+    lastName: 'Clark',
+    email: 'noah.clark@example.com',
+    age: 41,
+    occupation: 'Accountant',
+
+    image: '/images/userAvatars/user3.jpg',
+    posts: [
+      {
+        id: 'u3_b1',
+        title: 'Mastering Personal Finance',
+        subtitle: 'Start managing your money smarter',
+        content:
+          'This article breaks down budgeting, saving, and investing to help you take control of your finances.',
+        publishDate: '2024-12-05',
+        author: 'Noah Clark',
+        image: '/images/blogImages/u3_b1.jpeg',
+      },
+      {
+        id: 'u3_b2',
+        title: 'Tax Tips for Small Business Owners',
+        subtitle: 'Avoiding common mistakes',
+        content:
+          'Learn what deductions you can claim and how to stay compliant with tax regulations.',
+        publishDate: '2025-01-25',
+        author: 'Noah Clark',
+        image: '/images/blogImages/u3_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u4',
+    firstName: 'Emma',
+    lastName: 'Phillips',
+    email: 'emma.phillips@example.com',
+    age: 25,
+    occupation: 'UX Designer',
+
+    image: '/images/userAvatars/user4.jpg',
+    posts: [
+      {
+        id: 'u4_b1',
+        title: 'Designing for Accessibility',
+        subtitle: 'Creating inclusive user experiences',
+        content:
+          'Explore techniques to ensure your product is usable by everyone, including those with disabilities.',
+        publishDate: '2025-01-05',
+        author: 'Emma Phillips',
+        image: '/images/blogImages/u4_b1.jpeg',
+      },
+      {
+        id: 'u4_b2',
+        title: 'UX Trends to Watch',
+        subtitle: "What's shaping the design world",
+        content:
+          'From voice UI to AI-driven layouts, discover the top UX trends influencing modern design.',
+        publishDate: '2025-03-14',
+        author: 'Emma Phillips',
+        image: '/images/blogImages/u4_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u5',
+    firstName: 'James',
+    lastName: 'Nguyen',
+    email: 'james.nguyen@example.com',
+    age: 38,
+    occupation: 'Project Manager',
+
+    image: '/images/userAvatars/user5.jpg',
+    posts: [
+      {
+        id: 'u5_b1',
+        title: 'Agile Project Management Explained',
+        subtitle: 'How agile boosts team productivity',
+        content:
+          'Understand the fundamentals of agile methodology and how it can streamline project delivery.',
+        publishDate: '2024-11-22',
+        author: 'James Nguyen',
+        image: '/images/blogImages/u5_b1.jpeg',
+      },
+      {
+        id: 'u5_b2',
+        title: 'Leading Remote Teams Effectively',
+        subtitle: 'Best practices for virtual leadership',
+        content:
+          'Tips and tools for managing distributed teams while maintaining productivity and morale.',
+        publishDate: '2025-01-30',
+        author: 'James Nguyen',
+        image: '/images/blogImages/u5_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u6',
+    firstName: 'Ava',
+    lastName: 'Brooks',
+    email: 'ava.brooks@example.com',
+    age: 31,
+    occupation: 'Data Analyst',
+
+    image: '/images/userAvatars/user6.jpg',
+    posts: [
+      {
+        id: 'u6_b1',
+        title: 'Intro to Data Visualization',
+        subtitle: 'Making sense of data visually',
+        content:
+          'Learn how to use charts and dashboards to effectively communicate data insights.',
+        publishDate: '2025-02-10',
+        author: 'Ava Brooks',
+        image: '/images/blogImages/u6_b1.jpeg',
+      },
+      {
+        id: 'u6_b2',
+        title: 'SQL Queries for Beginners',
+        subtitle: 'Mastering the basics',
+        content:
+          "This beginner's guide walks you through SELECT, WHERE, JOINs, and more.",
+        publishDate: '2025-03-05',
+        author: 'Ava Brooks',
+        image: '/images/blogImages/u6_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u7',
+    firstName: 'William',
+    lastName: 'Reed',
+    email: 'william.reed@example.com',
+    age: 27,
+    occupation: 'Financial Advisor',
+
+    image: '/images/userAvatars/user7.jpg',
+    posts: [
+      {
+        id: 'u7_b1',
+        title: 'Investing 101',
+        subtitle: "A beginner's guide to building wealth",
+        content:
+          'We cover stocks, bonds, ETFs, and strategies for long-term investment success.',
+        publishDate: '2025-01-12',
+        author: 'William Reed',
+        image: '/images/blogImages/u7_b1.jpeg',
+      },
+      {
+        id: 'u7_b2',
+        title: 'Retirement Planning Simplified',
+        subtitle: 'How to secure your future',
+        content:
+          'Plan your retirement early with these expert tips on savings and portfolio diversification.',
+        publishDate: '2025-02-20',
+        author: 'William Reed',
+        image: '/images/blogImages/u7_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u8',
+    firstName: 'Sophia',
+    lastName: 'Kim',
+    email: 'sophia.kim@example.com',
+    age: 36,
+    occupation: 'HR Specialist',
+
+    image: '/images/userAvatars/user8.jpg',
+    posts: [
+      {
+        id: 'u8_b1',
+        title: 'Creating a Positive Work Culture',
+        subtitle: 'Why culture matters',
+        content:
+          'This article explores how to build and maintain a healthy and productive workplace environment.',
+        publishDate: '2024-10-25',
+        author: 'Sophia Kim',
+        image: '/images/blogImages/u8_b1.jpeg',
+      },
+      {
+        id: 'u8_b2',
+        title: 'Hiring for Potential vs. Experience',
+        subtitle: 'Finding the right talent',
+        content:
+          'Explore strategies for evaluating candidates based on growth potential and attitude.',
+        publishDate: '2025-01-18',
+        author: 'Sophia Kim',
+        image: '/images/blogImages/u8_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u9',
+    firstName: 'Benjamin',
+    lastName: 'Ward',
+    email: 'benjamin.ward@example.com',
+    age: 43,
+    occupation: 'Civil Engineer',
+
+    image: '/images/userAvatars/user9.jpg',
+    posts: [
+      {
+        id: 'u9_b1',
+        title: 'The Future of Sustainable Infrastructure',
+        subtitle: 'Green building trends',
+        content:
+          'An overview of technologies and materials making construction more eco-friendly.',
+        publishDate: '2025-02-03',
+        author: 'Benjamin Ward',
+        image: '/images/blogImages/u9_b1.jpeg',
+      },
+      {
+        id: 'u9_b2',
+        title: 'Project Planning for Engineers',
+        subtitle: 'Execution without delays',
+        content:
+          'Learn techniques to ensure your construction projects finish on time and within budget.',
+        publishDate: '2025-03-22',
+        author: 'Benjamin Ward',
+        image: '/images/blogImages/u9_b2.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'u10',
+    firstName: 'Isabella',
+    lastName: 'Morris',
+    email: 'isabella.morris@example.com',
+    age: 30,
+    occupation: 'Teacher',
+
+    image: '/images/userAvatars/user10.jpg',
+    posts: [
+      {
+        id: 'u10_b1',
+        title: 'Tech in the Classroom',
+        subtitle: 'Modern tools for learning',
+        content:
+          'Discover how EdTech is transforming education and engaging students like never before.',
+        publishDate: '2025-01-15',
+        author: 'Isabella Morris',
+        image: '/images/blogImages/u10_b1.jpeg',
+      },
+      {
+        id: 'u10_b2',
+        title: 'Creating Inclusive Lesson Plans',
+        subtitle: 'Teaching every student',
+        content:
+          'Tips for designing lessons that accommodate all learning styles and backgrounds.',
+        publishDate: '2025-03-10',
+        author: 'Isabella Morris',
+        image: '/images/blogImages/u10_b2.jpeg',
+      },
+    ],
+  },
+]
+
+export default users
