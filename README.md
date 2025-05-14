@@ -5,30 +5,6 @@ This is a full-stack **React application** that fetches a random user's data fro
 
 ---
 
-## **Features**
-
-- **Sidebar** displaying a random user's data
-- **Dashboard** page
-- **Blog List** with clickable items that navigate to individual blog details
-- **PUT request** for editing blog items
-- **404 Error Handling** for invalid routes
-- **Unit tests** to ensure functionality
-- **Vite** as the build tool for faster development
-
----
-
-## **Technologies Used**
-
-- **Frontend**: React, React Router, Ant Design
-- **Backend**: Node.js, Express
-- **API calls**: REST API (using Fetch)
-- **Testing**: Unit tests (using a framework like Jest or Mocha)
-- **Development**: Vite, Yarn
-- **Error Handling**: Custom 404 route for unhandled URLs
-- **Version Control**: Git
-
----
-
 ## **Installation**
 
 Follow the steps below to get your project up and running locally.
